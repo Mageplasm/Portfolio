@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700);
+
+/*Allow width to include padding and borders*/
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: 'Alegreya Sans',Tahoma, sans-serif;
+}
+
+html,body {
+    height:100%;
+}
+
+
+#profile_text, #profile_picture{
+	display: inline-block;
+}
+
+#profile_text{
+	font-weight: 800;
+	font-size: 40px;
+}
+
+#profile_text p{
+	margin: 0;
+}
+
+/*Menu Styling*/
+nav
+{
+	display: flex;
+	z-index: 1; 
+	position: fixed;
+	width: 100%;
+}
+
+#menu
+{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 0; 
+	padding: 0px;
+	width: 100%;
+}
+
+#menu li:nth-child(odd) {
+    background: #0033CC;
+}
+
+#menu li:nth-child(even) {
+    background: #0066CC;
+}
+
+
+#menu li
+{
+	margin: 0; 
+	display: inline-block;
+	width: 20%;
+	transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+}
+
+#menu li:hover
+{
+	opacity: 0.5;
+}
+
+a
+{
+	display: block;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#section1
+{
+	height: 110%;
+}
+
+p{
+	font-size: 40px; 
+}
