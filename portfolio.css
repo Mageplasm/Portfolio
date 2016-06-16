@@ -282,11 +282,17 @@ a{
 		font-size: 0.7em;
 		font-weight: 700; 
 		padding: 15px;
+				text-decoration: underline;
+
 	}
 
 	#menu{
 		width: 95%;
 	}
+	
+		#menu li:hover{
+	opacity: 1;
+}
 }
 
 /*a{
