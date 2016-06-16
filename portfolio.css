@@ -284,6 +284,15 @@ a{
 	}
 }
 
+@media screen and (max-width: 320px){
+	a{
+		font-size: 0.5em;
+		font-weight: 700; 
+		padding: 15px;
+	}
+}
+
+
 /*a{
 	display: block;
 	width: 100%;
@@ -382,6 +391,8 @@ a{
 		color: #333;
 	}
 }
+
+/*Query for device height*/
 
 
 /*project{
