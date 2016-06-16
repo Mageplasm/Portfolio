@@ -267,6 +267,9 @@ a{
 		font-size: 1em;
 		text-decoration: underline;
 	}
+	#menu li:hover{
+	opacity: 1;
+}
 }
 
 @media only screen and (max-width: 550px){
