@@ -272,6 +272,10 @@ a{
 		font-size: 1.5em;
 		text-decoration: underline;
 	}
+	
+	a:active{
+		color: blue;
+	}
 	#menu li:hover{
 	opacity: 1;
 }
