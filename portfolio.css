@@ -262,14 +262,14 @@ a{
 	}
 }
 
-@media screen and (max-width: 743px){
+@media only screen and (max-width: 743px){
 	a{
 		font-size: 1em;
 		text-decoration: underline;
 	}
 }
 
-@media screen and (max-width: 550px){
+@media only screen and (max-width: 550px){
 	a{
 		font-size: 0.7em;
 		font-weight: 700; 
