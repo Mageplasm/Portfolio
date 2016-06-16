@@ -259,7 +259,12 @@ a{
 @media screen and (max-width: 900px){
 	a{
 		font-size: 1.3em;
+				text-decoration: underline;
+
 	}
+		#menu li:hover{
+	opacity: 1;
+}
 }
 
 @media only screen and (max-width: 743px){
