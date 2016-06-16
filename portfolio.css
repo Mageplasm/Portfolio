@@ -265,6 +265,7 @@ a{
 @media screen and (max-width: 743px){
 	a{
 		font-size: 1em;
+		text-decoration: underline;
 	}
 }
 
