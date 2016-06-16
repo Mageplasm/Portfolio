@@ -266,6 +266,10 @@ a{
 	a{
 		font-size: 1em;
 	}
+
+	#bio_container{
+		width: 90%;
+	}
 }
 
 @media screen and (max-width: 550px){
