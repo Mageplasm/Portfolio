@@ -280,11 +280,6 @@ a{
 	#bio_container{
 		width: 90%;
 	}
-
-	.project_description a{
-	font-size: 1em; 
-	text-decoration: underline; 
-	color: #333;
 }
 }
 
@@ -298,11 +293,6 @@ a{
 	#menu{
 		width: 95%;
 	}
-
-	.project_description a{
-	font-size: 1em; 
-	text-decoration: underline; 
-	color: #333;
 }
 }
 
@@ -316,11 +306,6 @@ a{
 	{
 		width: 100%;
 	}
-
-	.project_description a{
-	font-size: 1em; 
-	text-decoration: underline; 
-	color: #333;
 }
 }
 
@@ -378,6 +363,13 @@ a{
 		font-size: 1em; 
 		color: #333;
 	}
+
+
+	.project_description a{
+	font-size: 1em; 
+	text-decoration: underline; 
+	color: #333;
+}
 }
 
 @media screen and (max-width: 817px){
@@ -390,6 +382,13 @@ a{
 		font-size: 0.9em; 
 		color: #333;
 	}
+
+
+	.project_description a{
+	font-size: 0.9em; 
+	text-decoration: underline; 
+	color: #333;
+}
 }
 
 @media screen and (max-width: 712px){
@@ -422,6 +421,13 @@ a{
 		font-size: 0.9em; 
 		color: #333;
 	}
+
+
+	.project_description a{
+	font-size: 0.9em; 
+	text-decoration: underline; 
+	color: #333;
+}
 }
 
 /*Query for device height*/
@@ -487,6 +493,13 @@ a{
   		margin-right: auto; 
   		margin-left: auto; 
   	}
+
+
+	.project_description a{
+	font-size: 0.7em; 
+	text-decoration: underline; 
+	color: #333;
+}
 
 }
 
