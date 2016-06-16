@@ -197,6 +197,7 @@ a{
 }
 
 .project_description a{
+	font-size: 1em; 
 	text-decoration: underline; 
 	color: #333;
 }
@@ -264,6 +265,11 @@ a{
 	a{
 		font-size: 1.3em;
 	}
+	.project_description a{
+	font-size: 1em; 
+	text-decoration: underline; 
+	color: #333;
+}
 }
 
 @media screen and (max-width: 743px){
@@ -274,6 +280,12 @@ a{
 	#bio_container{
 		width: 90%;
 	}
+
+	.project_description a{
+	font-size: 1em; 
+	text-decoration: underline; 
+	color: #333;
+}
 }
 
 @media screen and (max-width: 550px){
@@ -286,6 +298,12 @@ a{
 	#menu{
 		width: 95%;
 	}
+
+	.project_description a{
+	font-size: 1em; 
+	text-decoration: underline; 
+	color: #333;
+}
 }
 
 @media screen and (max-width: 320px){
@@ -298,6 +316,12 @@ a{
 	{
 		width: 100%;
 	}
+
+	.project_description a{
+	font-size: 1em; 
+	text-decoration: underline; 
+	color: #333;
+}
 }
 
 
@@ -459,6 +483,9 @@ a{
 	
 	#profile_picture img{
   		width: 90%;
+  		display: block;
+  		margin-right: auto; 
+  		margin-left: auto; 
   	}
 
 }
