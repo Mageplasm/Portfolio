@@ -27,7 +27,6 @@
 	position: absolute;
 	top: 20%;
 	width: 100%;
-
 	/*Code for profile to fade in on load of webpage*/
  	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -194,6 +193,11 @@ a{
 
 .project_description p{
 	font-size: 1em; 
+	color: #333;
+}
+
+.project_description a{
+	text-decoration: underline; 
 	color: #333;
 }
 
@@ -452,6 +456,10 @@ a{
 	#profile_text{
 		font-size: 1.6em;
 	}
+	
+	#profile_picture img{
+  		width: 90%;
+  	}
 
 }
 
