@@ -1,8 +1,12 @@
 $(document).ready(function(){
 	$('#full_page').fullpage({
-		    sectionsColor: ['#B8AE9C', '#348899', '#F2AE72', '#5C832F', '#B8B89F'],
+		    sectionsColor: ['#D8D8D8', '#D8D8D8', '#D8D8D8', '#D8D8D8', '#D8D8D8'],
 			anchors: ['first_section', 'second_section', 'third_section', 'fourth_section', 'fifth_section'],
-			menu: '#menu',
-			scrollOverflow: true
+			menu: '#menu'
 		}); 
+
+	$(".fancybox").fancybox({'width':850,
+                         'height':1100,
+                         'autoSize' : false,
+                     'type'   : 'iframe'});
 }); 
