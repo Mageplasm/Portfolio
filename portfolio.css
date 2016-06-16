@@ -264,7 +264,7 @@ a{
 
 @media screen and (max-width: 743px){
 	a{
-		font-size: 0.9em;
+		font-size: 1em;
 	}
 
 	#bio_container{
@@ -274,7 +274,7 @@ a{
 
 @media screen and (max-width: 550px){
 	a{
-		font-size: 0.7em;
+		font-size: 0.6em;
 		font-weight: 700; 
 		padding: 15px;
 	}
