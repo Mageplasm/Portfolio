@@ -262,18 +262,13 @@ a{
 }
 
 @media screen and (max-width: 900px){
-	a{
+	.menu_links{
 		font-size: 1.3em;
 	}
-	.project_description a{
-	font-size: 1em; 
-	text-decoration: underline; 
-	color: #333;
-}
 }
 
 @media screen and (max-width: 743px){
-	a{
+	.menu_links{
 		font-size: 1em;
 	}
 
@@ -281,10 +276,9 @@ a{
 		width: 90%;
 	}
 }
-}
 
 @media screen and (max-width: 550px){
-	a{
+	.menu_links{
 		font-size: 0.6em;
 		font-weight: 700; 
 		padding: 15px;
@@ -294,10 +288,9 @@ a{
 		width: 95%;
 	}
 }
-}
 
 @media screen and (max-width: 320px){
-	a{
+	.menu_links{
 		font-size: 0.55em;
 		padding: 15px;
 	}
@@ -306,7 +299,6 @@ a{
 	{
 		width: 100%;
 	}
-}
 }
 
 
@@ -363,13 +355,6 @@ a{
 		font-size: 1em; 
 		color: #333;
 	}
-
-
-	.project_description a{
-	font-size: 1em; 
-	text-decoration: underline; 
-	color: #333;
-}
 }
 
 @media screen and (max-width: 817px){
@@ -383,12 +368,11 @@ a{
 		color: #333;
 	}
 
-
 	.project_description a{
 	font-size: 0.9em; 
 	text-decoration: underline; 
 	color: #333;
-}
+	}
 }
 
 @media screen and (max-width: 712px){
@@ -421,7 +405,6 @@ a{
 		font-size: 0.9em; 
 		color: #333;
 	}
-
 
 	.project_description a{
 	font-size: 0.9em; 
@@ -475,6 +458,12 @@ a{
 		color: #333;
 	}
 
+	.project_description a{
+	font-size: 0.7em; 
+	text-decoration: underline; 
+	color: #333;
+}
+
 	#bio p{
 		font-size: 0.75em; 
 	}
@@ -493,13 +482,6 @@ a{
   		margin-right: auto; 
   		margin-left: auto; 
   	}
-
-
-	.project_description a{
-	font-size: 0.7em; 
-	text-decoration: underline; 
-	color: #333;
-}
 
 }
 
