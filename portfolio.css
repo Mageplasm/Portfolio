@@ -269,7 +269,7 @@ a{
 
 @media screen and (max-device-width: 743px){
 	a{
-		font-size: 1em;
+		font-size: 1.5em;
 		text-decoration: underline;
 	}
 	#menu li:hover{
