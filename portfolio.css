@@ -478,4 +478,13 @@ a{
 		width: 15%;
 	}
 
+	/*Make horizontal scrolling arrows smaller*/
+	.fp-next.fp-controlArrow{
+		border-width: 25.7px 0 25.7px 22.7px;
+	}
+
+	.fp-prev.fp-controlArrow{
+		border-width: 25.7px 22.7px 25.7px 0;
+	}
+
 }
