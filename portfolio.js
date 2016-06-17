@@ -5,8 +5,9 @@ $(document).ready(function(){
 			menu: '#menu'
 		}); 
 
-	$(".fancybox").fancybox({'width':850,
-                         'height':1100,
-                         'autoSize' : false,
-                     'type'   : 'iframe'});
+	$(".fancybox").fancybox(
+		{'width':850,
+         'height':1100,
+         'autoSize' : false,
+     	 'type':'iframe'});
 }); 
