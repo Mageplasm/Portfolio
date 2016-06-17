@@ -242,74 +242,6 @@ a{
 
 
 /*Code for small screen size*/
-
-@media screen and (max-width: 900px){
-	.menu_links{
-		font-size: 1.3em;
-	}
-}
-
-@media screen and (max-width: 743px){
-	.menu_links{
-		font-size: 1em;
-	}
-
-	#bio_container{
-		width: 90%;
-	}
-}
-
-@media screen and (max-width: 550px){
-	.menu_links{
-		font-size: 0.6em;
-		font-weight: 700; 
-		padding: 15px;
-	}
-
-	#menu{
-		width: 95%;
-	}
-}
-
-@media screen and (max-width: 320px){
-	.menu_links{
-		font-size: 0.55em;
-		padding: 15px;
-	}
-
-	#menu
-	{
-		width: 100%;
-	}
-}
-
-@media screen and (max-width: 537px){
-	#profile_text{
-		font-size: 1.82155em;
-	}
-
-	#profile{
-		top: 15%;
-	}
-
-	#bio p{
-		font-size: 0.85em; 
-	}
-
-	#bio h1{
-		font-size: 1.82155em;
-	}
-
-	#bio{
-		top: 15%;
-	}
-
-	.project_container{
-		top: 15%;
-	}
-
-}
-
 @media screen and (max-width: 1055px){
 	#profile_text{
 		font-size: 2.143em;
@@ -334,6 +266,13 @@ a{
 	}
 }
 
+
+@media screen and (max-width: 900px){
+	.menu_links{
+		font-size: 1.3em;
+	}
+}
+
 @media screen and (max-width: 817px){
 	.project_description h1{
 		font-weight: 400;
@@ -349,6 +288,16 @@ a{
 	font-size: 0.9em; 
 	text-decoration: underline; 
 	color: #333;
+	}
+}
+
+@media screen and (max-width: 743px){
+	.menu_links{
+		font-size: 1em;
+	}
+
+	#bio_container{
+		width: 90%;
 	}
 }
 
@@ -388,6 +337,58 @@ a{
 		color: #333;
 	}
 }
+
+@media screen and (max-width: 550px){
+	.menu_links{
+		font-size: 0.6em;
+		font-weight: 700; 
+		padding: 15px;
+	}
+
+	#menu{
+		width: 95%;
+	}
+}
+
+@media screen and (max-width: 537px){
+	#profile_text{
+		font-size: 1.82155em;
+	}
+
+	#profile{
+		top: 15%;
+	}
+
+	#bio p{
+		font-size: 0.85em; 
+	}
+
+	#bio h1{
+		font-size: 1.82155em;
+	}
+
+	#bio{
+		top: 15%;
+	}
+
+	.project_container{
+		top: 15%;
+	}
+
+}
+
+@media screen and (max-width: 320px){
+	.menu_links{
+		font-size: 0.55em;
+		padding: 15px;
+	}
+
+	#menu
+	{
+		width: 100%;
+	}
+}
+
 
 /*Query for device height*/
 @media screen and (max-width: 712px) and (max-height: 402px){
