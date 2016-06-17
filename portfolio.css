@@ -285,9 +285,9 @@ a{
 	}
 
 	.project_description a{
-	font-size: 0.9em; 
-	text-decoration: underline; 
-	color: #333;
+		font-size: 0.9em; 
+		text-decoration: underline; 
+		color: #333;
 	}
 }
 
@@ -436,10 +436,10 @@ a{
 	}
 
 	.project_description a{
-	font-size: 0.7em; 
-	text-decoration: underline; 
-	color: #333;
-}
+		font-size: 0.7em; 
+		text-decoration: underline; 
+		color: #333;
+	}
 
 	#bio p{
 		font-size: 0.7em; 
