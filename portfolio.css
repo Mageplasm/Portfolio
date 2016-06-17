@@ -256,13 +256,11 @@ a{
 	}
 
 	.project_description h1{
-		font-weight: 400;
 		font-size: 1.4em; 
 	}
 
 	.project_description p{
 		font-size: 1em; 
-		color: #333;
 	}
 
 	#image_text{
@@ -279,19 +277,15 @@ a{
 
 @media screen and (max-width: 817px){
 	.project_description h1{
-		font-weight: 400;
 		font-size:1.2em; 
 	}
 
 	.project_description p{
 		font-size: 0.9em; 
-		color: #333;
 	}
 
 	.project_description a{
 		font-size: 0.9em; 
-		text-decoration: underline; 
-		color: #333;
 	}
 
 	#image_text{
@@ -310,8 +304,9 @@ a{
 }
 
 @media screen and (max-width: 712px){
+	/*Switch to a vertical ordering for the project image and 
+	description as the screen width decreases*/
 	.project{
-		display: flex;
 		flex-direction: column;
 		width: 72%;
 	}
@@ -329,44 +324,23 @@ a{
 		margin: 0;
 	}
 
-	.project_description h1{
-		font-weight: 400;
-		font-size:1.2em; 
-	}
-
-	.project_description p{
-		font-size: 0.9em; 
-		color: #333;
-	}
-
-	.project_description a{
-		font-size: 0.9em; 
-		text-decoration: underline; 
-		color: #333;
-	}
-
-	#image_text{
-		font-size: 1.2em; 
-	}
-
-	/*Increase img width to fill smaller screen*/
+	/*Increase resume width to fill the smaller screen*/
 	#resume{
-		margin-right: auto; 
-		margin-left: auto; 
 		width: 35%;
 	}
 
 }
 
+/*Change to mobile menu*/
 @media screen and (max-width: 550px){
 	.menu_links{
 		font-size: 0.6em;
-		font-weight: 700; 
-		padding: 15px;
+		font-weight: 600; 
+		padding: 8px;
 	}
 
 	#menu{
-		width: 95%;
+		width: 100%;
 	}
 }
 
@@ -398,18 +372,12 @@ a{
 	#resume_container{
 		top: 15%;
 	}
-
 }
 
+/*Reduce font size for menu*/
 @media screen and (max-width: 320px){
 	.menu_links{
 		font-size: 0.55em;
-		padding: 15px;
-	}
-
-	#menu
-	{
-		width: 100%;
 	}
 }
 
