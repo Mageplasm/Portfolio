@@ -492,4 +492,14 @@ a{
   		top: 25%;
   	}
 
+  	#image_text{
+		font-size: 1.1em; 
+	}
+
+	#resume{
+		margin-right: auto; 
+		margin-left: auto; 
+		width: 25%;
+	}
+
 }
