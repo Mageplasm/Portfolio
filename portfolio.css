@@ -210,7 +210,6 @@ a{
 	margin-right: auto; 
 	margin-left: auto; 
 	width: 25%;
-
 }
 
 .fancybox{
@@ -226,8 +225,9 @@ a{
 
 #image_text{
 	margin-top: 0; 
+	margin-bottom: 16px; 
 	text-align: center; 
-	font-size: 1.5em; 
+	font-size: 2em; 
 	color: #333;
 }
 
@@ -257,12 +257,16 @@ a{
 
 	.project_description h1{
 		font-weight: 400;
-		font-size:1.4em; 
+		font-size: 1.4em; 
 	}
 
 	.project_description p{
 		font-size: 1em; 
 		color: #333;
+	}
+
+	#image_text{
+		font-size: 1.4em; 
 	}
 }
 
@@ -288,6 +292,10 @@ a{
 		font-size: 0.9em; 
 		text-decoration: underline; 
 		color: #333;
+	}
+
+	#image_text{
+		font-size: 1.2em; 
 	}
 }
 
@@ -336,6 +344,18 @@ a{
 		text-decoration: underline; 
 		color: #333;
 	}
+
+	#image_text{
+		font-size: 1.2em; 
+	}
+
+	/*Increase img width to fill smaller screen*/
+	#resume{
+		margin-right: auto; 
+		margin-left: auto; 
+		width: 35%;
+	}
+
 }
 
 @media screen and (max-width: 550px){
@@ -372,6 +392,10 @@ a{
 	}
 
 	.project_container{
+		top: 15%;
+	}
+
+	#resume_container{
 		top: 15%;
 	}
 
