@@ -81,7 +81,7 @@ nav{
 	filter: alpha(opacity=50);
 }
 
-a{
+.menu_links{
 	display: block;
 	width: 100%;
 	text-align: center;
@@ -182,10 +182,15 @@ a{
 	color: #333;
 }
 
-.project_description a{
+.code_links{
 	font-size: 1em; 
+	text-align: center;
+	text-transform: uppercase;
 	text-decoration: underline; 
 	color: #333;
+	display: block;
+	width: 100%;
+
 }
 
 /*Fancybox and resume styling*/
@@ -233,10 +238,9 @@ a{
 	margin-left: auto;
 }
 
-#contact_info h1{
+#contact_info p{
 	margin-top: 0;
 	text-align: center; 
-	font-weight: 400;
 	font-size: 2em; 
 	color: #333;
 }
@@ -249,7 +253,6 @@ a{
 .fp-prev.fp-controlArrow{
 	border-right-color: #606060;
 }
-
 
 /*Code for small screen size*/
 @media screen and (max-width: 1055px){
@@ -277,7 +280,7 @@ a{
 		font-size: 1.4em; 
 	}
 
-	#contact_info h1{
+	#contact_info p{
 		font-size: 1.4em
 	}
 }
@@ -298,7 +301,7 @@ a{
 		font-size: 0.9em; 
 	}
 
-	.project_description a{
+	.code_links{
 		font-size: 0.9em; 
 	}
 
@@ -306,9 +309,9 @@ a{
 		font-size: 1.2em; 
 	}
 
-	#contact_info h1{
+	#contact_info p{
 		font-size: 1.2em
-	}
+	}	
 }
 
 @media screen and (max-width: 743px){
@@ -350,7 +353,6 @@ a{
 	#resume{
 		width: 35%;
 	}
-
 }
 
 /*Change to mobile menu*/
@@ -371,10 +373,6 @@ a{
 		font-size: 1.82155em;
 	}
 
-	#profile{
-		top: 15%;
-	}
-
 	#bio p{
 		font-size: 0.8em; 
 	}
@@ -383,22 +381,12 @@ a{
 		font-size: 1.82155em;
 	}
 
-	#bio{
+	/*Move the contents for each slide slighly higher*/
+	#bio, #profile, .project_container, #resume_container, #contact_container{
 		top: 15%;
 	}
 
-	.project_container{
-		top: 15%;
-	}
-
-	#resume_container{
-		top: 15%;
-	}
-
-	#contact_container{
-		top: 15%;
-	}
-
+	/*Make horizontal scrolling arrows smaller*/
 	.fp-next.fp-controlArrow{
 		border-width: 25.7px 0 25.7px 22.7px;
 	}
@@ -414,7 +402,6 @@ a{
 		font-size: 0.55em;
 	}
 }
-
 
 /*Query for device height*/
 @media screen and (max-width: 712px) and (max-height: 402px){
@@ -455,7 +442,7 @@ a{
 		color: #333;
 	}
 
-	.project_description a{
+	.code_links{
 		font-size: 0.7em; 
 		text-decoration: underline; 
 		color: #333;
@@ -498,7 +485,7 @@ a{
 		width: 15%;
 	}
 
-	#contact_info h1{
+	#contact_info p{
 		font-size: 1.1em
 	}
 
