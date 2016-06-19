@@ -43,10 +43,6 @@
     to   { opacity: 1; filter: alpha(opacity=100); }
 }
 
-/* Internet Explorer */
-
-/* Opera < 12.1 */
-
 /*Menu Styling*/
 nav{
 	display: -webkit-box;
@@ -244,6 +240,7 @@ a{
 	font-size: 2em; 
 	color: #333;
 }
+
 /*Change default style on arrows for horizontal scrolling*/
 .fp-next.fp-controlArrow{
 	border-left-color: #606060;
@@ -447,7 +444,6 @@ a{
 		border-style: solid;
 		border-color: #606060;
 		border-width: 2px;
-
 	}
 	
 	.project_description h1{
@@ -502,6 +498,14 @@ a{
 		width: 15%;
 	}
 
+	#contact_info h1{
+		font-size: 1.1em
+	}
+
+	#contact_container{
+		top: 25%;
+	}
+
 	/*Make horizontal scrolling arrows smaller*/
 	.fp-next.fp-controlArrow{
 		border-width: 25.7px 0 25.7px 22.7px;
@@ -509,9 +513,5 @@ a{
 
 	.fp-prev.fp-controlArrow{
 		border-width: 25.7px 22.7px 25.7px 0;
-	}
-
-	#contact_info h1{
-		font-size: 1.1em
 	}
 }
