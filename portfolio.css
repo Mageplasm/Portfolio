@@ -152,7 +152,7 @@ nav{
 }
 
 .project_picture{
-	width: 70%;
+	width: 75%;
 	border-right: solid; 
 	border-width: 2px; 
 	border-color: #606060;
@@ -164,7 +164,7 @@ nav{
 }
 
 .project_description{
-	width: 30%;
+	width: 25%;
 	margin-left: 8px; 
 	margin-right: 8px; 
 
