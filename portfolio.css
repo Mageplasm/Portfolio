@@ -245,6 +245,11 @@ nav{
 	color: #333;
 }
 
+#email_link{
+	color: #333;
+	text-decoration: none; 
+}
+
 /*Change default style on arrows for horizontal scrolling*/
 .fp-next.fp-controlArrow{
 	border-left-color: #606060;
